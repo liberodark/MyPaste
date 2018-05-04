@@ -114,8 +114,7 @@ $.post("finish.php", {admin_user:user,admin_pass:pass}, function(results){
                     class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </a><a class="brand" href="install.php">MyPasteBox </a>
       <div class="nav-collapse">
         <ul class="nav pull-right">
-          <li class="dropdown"><a href="http://prothemes.biz" class="dropdown-toggle" data-toggle="dropdown">
-          Get more PHP script's</a>
+          <li class="dropdown"><a href="https://github.com/liberodark/MyPaste" class="dropdown-toggle" data-toggle="dropdown">Github</a>
           </li>
         </ul>
       </div>
@@ -331,12 +330,7 @@ if ($_SERVER['REQUEST_METHOD'] == POST)
                         <h4>
                             Our Products</h4>
                         <ul>
-                            <li><a href="https://codecanyon.net/item/atoz-seo-tools-search-engine-optimization-tools/12170678">A to Z SEO Tools</a></li>
-                            <li><a href="http://codecanyon.net/item/turbo-spinner-article-rewriter/8467415">Turbo Spinner: Article Rewriter</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=product/product&path=65&product_id=59">Pro IP locator Script</a></li>
-                            <li><a href="https://codecanyon.net/item/custom-openvpn-gui-pro-edition/9904287">Custom OpenVPN GUI</a></li>
-                            <li><a href="http://codecanyon.net/item/pptp-l2tp-vpn-client/8167857">PPTP &amp; L2TP VPN Client</a></li>
-                            <li><a href="http://codecanyon.net/item/isdownornot-website-down-or-not/7472143">IsDownOrNot? Website Down or Not?</a></li>
+                            <li><a href="https://github.com/liberodark/Lift-File-Manager">Lift File Manager</a></li>
                         </ul>
                     </div>
                     <!-- /span3 -->
@@ -344,10 +338,10 @@ if ($_SERVER['REQUEST_METHOD'] == POST)
                         <h4>
                             Support</h4>
                         <ul>
-                            <li><a href="http://forum.prothemes.biz">Frequently Asked Questions</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=information/contact">Ask a Question</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=information/contact">Contact US</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=information/contact">Feedback</a></li>
+                            <li><a href="https://github.com/liberodark/MyPaste/issues">Frequently Asked Questions</a></li>
+                            <li><a href="https://github.com/liberodark/MyPaste/issues">Ask a Question</a></li>
+                            <li><a href="https://github.com/liberodark/MyPaste/issues">Contact US</a></li>
+                            <li><a href="https://github.com/liberodark/MyPaste/issues">Feedback</a></li>
                         </ul>
                     </div>
                     <!-- /span3 -->
@@ -355,9 +349,7 @@ if ($_SERVER['REQUEST_METHOD'] == POST)
                         <h4>
                             Something Legal</h4>
                         <ul>
-                            <li><a href="http://codecanyon.net/licenses">Read License</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=information/information&information_id=5">Terms of Use</a></li>
-                            <li><a href="http://prothemes.biz/index.php?route=information/information&information_id=3">Privacy Policy</a></li>
+                            <li><a href="https://github.com/liberodark/MyPaste/">Read License</a></li>
                         </ul>
                     </div>
                     <!-- /span3 -->
@@ -387,7 +379,7 @@ if ($_SERVER['REQUEST_METHOD'] == POST)
   <div class="footer-inner">
     <div class="container">
       <div class="row">
-        <div class="span12"> &copy; 2017 MyPasteBox - <a href="http://prothemes.biz/">ProThemes.Biz</a>. </div>
+        <div class="span12"> &copy; 2018 MyPasteBox - <a href="https://github.com/liberodark/MyPaste/>Github</a>. </div>
         <!-- /span12 --> 
       </div>
       <!-- /row --> 
