@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^page/([a-zA-Z0-9]+)/ pages.php?page=$1 [L] 
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$  paste.php?id=$1 [L] 
+</IfModule>
